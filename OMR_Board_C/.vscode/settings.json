@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "gpio.h": "c",
+        "main.h": "c",
+        "stm32f4xx_hal.h": "c",
+        "stm32f4xx_hal_conf.h": "c",
+        "stm32f4xx_hal_rcc.h": "c",
+        "stm32f4xx_hal_def.h": "c",
+        "stm32f4xx_hal_exti.h": "c",
+        "stm32f4xx.h": "c",
+        "stm32_hal_legacy.h": "c",
+        "stm32f407xx.h": "c",
+        "system_stm32f4xx.h": "c",
+        "core_cm4.h": "c",
+        "bsp_led.h": "c",
+        "ist8310driver.h": "c",
+        "ist8310driver_middleware.h": "c",
+        "i2c.h": "c"
+    }
+}
