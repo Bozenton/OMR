@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+"omr_board_c\startup_stm32f407xx.o"
+"omr_board_c\main.o"
+"omr_board_c\gpio.o"
+"omr_board_c\stm32f4xx_it.o"
+"omr_board_c\stm32f4xx_hal_msp.o"
+"omr_board_c\stm32f4xx_hal_tim.o"
+"omr_board_c\stm32f4xx_hal_tim_ex.o"
+"omr_board_c\stm32f4xx_hal_rcc.o"
+"omr_board_c\stm32f4xx_hal_rcc_ex.o"
+"omr_board_c\stm32f4xx_hal_flash.o"
+"omr_board_c\stm32f4xx_hal_flash_ex.o"
+"omr_board_c\stm32f4xx_hal_flash_ramfunc.o"
+"omr_board_c\stm32f4xx_hal_gpio.o"
+"omr_board_c\stm32f4xx_hal_dma_ex.o"
+"omr_board_c\stm32f4xx_hal_dma.o"
+"omr_board_c\stm32f4xx_hal_pwr.o"
+"omr_board_c\stm32f4xx_hal_pwr_ex.o"
+"omr_board_c\stm32f4xx_hal_cortex.o"
+"omr_board_c\stm32f4xx_hal.o"
+"omr_board_c\stm32f4xx_hal_exti.o"
+"omr_board_c\system_stm32f4xx.o"
+--strict --scatter "OMR_Board_C\OMR_Board_C.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "OMR_Board_C.map" -o OMR_Board_C\OMR_Board_C.axf
