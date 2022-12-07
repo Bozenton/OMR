@@ -15,6 +15,12 @@
         "bsp_led.h": "c",
         "ist8310driver.h": "c",
         "ist8310driver_middleware.h": "c",
-        "i2c.h": "c"
+        "i2c.h": "c",
+        "arm_math.h": "c",
+        "ins_task.h": "c",
+        "struct_typedef.h": "c",
+        "ahrs.h": "c",
+        "stdio.h": "c",
+        "freertos.h": "c"
     }
 }
